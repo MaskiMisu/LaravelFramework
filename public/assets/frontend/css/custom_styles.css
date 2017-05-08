@@ -1,0 +1,331 @@
+* {
+  font-family: Roboto Slab;
+}
+.nopadding {
+    padding: 0 !important;
+}
+
+.noleftpadding {
+    padding-left: 0 !important;
+}
+
+.norightpadding {
+    padding-right: 0 !important;
+}
+
+.slick-slider-wrapper.slick-initialized.slick-slider{
+    position: fixed;
+    top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.slick-prev{
+  left: 0;
+  z-index:2;
+}
+
+.slick-next{
+  right:0;
+}
+
+.block{
+  z-index:1;
+}
+
+.product_wrapper {
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.product_group_shop_single {
+    margin-bottom: 15px;
+    padding: 0 15px 0 0;
+}
+
+.product {
+    position: relative;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    margin: 0;
+}
+
+.product-title {
+    margin-bottom: 7px;
+  min-height: 48px;
+}
+
+.product-title h3 {
+  margin: 0;
+    font-size: 15px;
+    /*text-transform: uppercase;*/
+  font-weight: 600;
+}
+
+.product-title h3 a, .single-product .product-title h2 a {
+    color: #333;
+}
+
+.product-title h3 a:hover, .single-product .product-title h2 a:hover, .list-news .item h3.title a:hover {
+    color: #0098bb;
+    text-decoration: none;
+}
+
+.product-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.product_wrapper .product-image {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.product_des {
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.product-price {
+    font-size: 15px;
+    font-weight: 600;
+    color: #444;
+    line-height: 25px;
+}
+
+.product_publish {
+    line-height: 25px;
+}
+
+.description_table {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.description_row {
+    -webkit-display: flex;
+    -moz-display: flex;
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+
+.description_row:last-child {
+    border-bottom: 1px solid #ddd;
+}
+
+.description_icon {
+    text-align: center;
+}
+
+.description_icon img {
+    width: auto!important;
+    display: inline!important;
+    margin: auto;
+}
+
+.description_icon, .description_detail {
+    border-left: 1px solid #ddd;
+    padding: 5px;
+}
+
+.description_detail {
+    border-right: 1px solid #ddd;
+}
+
+.description_detail a {
+    color: #222;
+    font-size: 12px;
+}
+
+.product-image > a {
+    height: auto;
+}
+
+.product-image > a, .product-image img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.product-image img {
+    /*height: auto;*/
+}
+
+.product-image > a:nth-of-type(2) {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    padding: 0 5px 0 0;
+}
+
+.product-image:hover > a:nth-of-type(2) {
+    opacity: 1;
+    z-index: 2;
+}
+
+.product-price ins {
+    text-decoration: none;
+  font-size: 20px;
+    color: red;
+    font-weight: 400;
+}
+
+.product_publish ins {
+    text-decoration: none;
+}
+
+.product a {
+    text-decoration: none !important;
+  height: 110px;
+}
+
+.error404 {
+    display: block;
+    font-size: 216px;
+    font-weight: 600;
+    color: #DDD;
+    line-height: 1.35;
+    letter-spacing: 4px;
+}
+
+.contact-form label{
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+form#contact{
+      background: #eee;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+form#contact label{
+  color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#mainbar .real-estate-detail .tab-content img{
+  max-width: 100%;
+}
+
+#header .heading_page_bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#main-menu.nav>li>a:hover{
+  background: #eaa926;
+  opacity: .8;
+}
+
+#main-menu ul.ul-sub-3 li a:hover{
+  color:  #eaa926;
+}
+
+.home-feature-block:hover{
+  backface-visibility: hidden;
+    transform: translateZ(0) scale(1);
+}
+
+.home-feature-block .block-caption a:hover{
+  color: #eaa926;
+}
+
+.home-footer .textC p{
+  text-align: center;
+}
+
+.home-footer .textC p span{
+  font-size: 10pt;
+  color: #ffffff;
+}
+
+/* ----------------------------------------------------------------
+Go To Top
+-----------------------------------------------------------------*/
+
+
+#gotoTop {
+  display: none;
+  z-index: 299;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background-color: #333 ;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff ;
+  top: auto;
+  left: auto;
+  right: 30px;
+  bottom: 50px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+#gotoTop:hover {
+  background-color: #eaa926;
+  color: #fff ;
+}
+
+/* Responsive website */
+
+@media only screen and (max-width: 320px)
+{
+  .home-footer .textC p span{
+    font-size: 8pt;
+  }
+}
+
+@media only screen and (max-width: 768px)
+{
+  .home-page .block{
+    left:0;
+    bottom:9%;
+  }
+  .slick-slider-wrapper.slick-initialized.slick-slider{
+    height: auto;
+  }
+
+  #rent-slider{
+    min-height: 0;
+  }
+
+  #rent-slider .flexslider .caption{
+    top: 220px;
+  }
+
+  #mainbar .real-estate .real-estate-detail .tab-content table tr{
+    border-bottom: 1px solid #ccc;
+  }
+
+  #mainbar .real-estate .real-estate-detail .tab-content table tr td{
+    padding: 10px 2px;
+  }
+
+  #mainbar .real-estate .real-estate-detail .tab-content table tr td:first-child{
+    width: 40%;
+  }
+}
+
+
+@media (min-width:960px) and (max-width:1024px) {
+  .tabW100{
+    width: 100% !important;
+  }
+
+  .slick-list, .slick-track{
+    height: 100%;
+  }
+}
